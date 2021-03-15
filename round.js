@@ -15,7 +15,7 @@ class Round {
 
     print() {
         this.games.forEach(game => {
-            game.print();
+            return game.print();
         });
     }
 }
